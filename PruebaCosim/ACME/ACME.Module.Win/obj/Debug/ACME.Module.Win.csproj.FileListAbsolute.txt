@@ -1,0 +1,9 @@
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module.Win\bin\Debug\ACME.Module.Win.dll
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module.Win\bin\Debug\ACME.Module.Win.pdb
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module.Win\bin\Debug\ACME.Module.dll
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module.Win\bin\Debug\ACME.Module.pdb
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module.Win\obj\Debug\ACME.Module.Win.csprojResolveAssemblyReference.cache
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module.Win\obj\Debug\ACME.Module.Win.ACMEWindowsFormsModule.resources
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module.Win\obj\Debug\ACME.Module.Win.csproj.GenerateResource.Cache
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module.Win\obj\Debug\ACME.Module.Win.dll
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module.Win\obj\Debug\ACME.Module.Win.pdb

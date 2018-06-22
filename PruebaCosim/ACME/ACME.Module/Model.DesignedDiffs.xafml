@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="ACME">
+  <BOModel>
+    <Class Name="ACME.Module.BusinessObjects.bdACME.AplicacionServicios" ObjectCaptionFormat="">
+      <OwnMembers>
+        <Member Name="Id" Caption="Código :" />
+        <Member Name="IdGerencias" Caption="Área del negocio, dueño del servicio (Gerencia). :" />
+        <Member Name="IdOficinas" Caption="¿El servicio de ofrece desde la oficina central o desde la oficina local?. :" />
+        <Member Name="IdPeriodos" Caption="Periodo :" />
+        <Member Name="IdServicios" Caption="Nombre del servicio :" />
+        <Member Name="IdUsuarios" Caption="Código Usuario" />
+        <Member Name="NombreAplicacion" Caption="Nombre :" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ACME.Module.BusinessObjects.bdACME.Usuarios">
+      <OwnMembers>
+        <Member Name="Agencia" Caption="Agencia :" />
+        <Member Name="AplicacionServiciosCollection" Caption="Aplicacion de Servicios (Asignado):" />
+        <Member Name="Id" Caption="Código :" />
+        <Member Name="IdDepartamento" Caption="Departamento :" />
+        <Member Name="NroUsuarios" Caption="N° de Usuarios :" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="18.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="AplicacionServicios_DetailView">
+      <Items>
+        <PropertyEditor Id="Id" Caption="Código " />
+        <PropertyEditor Id="IdGerencias" Caption="Área del negocio, dueño del servicio (Gerencia). " />
+        <PropertyEditor Id="IdOficinas" Caption="¿El servicio de ofrece desde la oficina central o desde la oficina local?. " />
+        <PropertyEditor Id="IdPeriodos" Caption="Periodo " />
+        <PropertyEditor Id="IdServicios" Caption="Nombre del servicio " />
+        <PropertyEditor Id="IdUsuarios" PropertyName="IdUsuarios" IsNewNode="True" Removed="True" />
+        <PropertyEditor Id="IdUsuarios.Agencia" PropertyName="IdUsuarios.Agencia" Caption="Agencia " IsNewNode="True" />
+        <PropertyEditor Id="IdUsuarios.IdDepartamento.NombreDepartamento" PropertyName="IdUsuarios.IdDepartamento.NombreDepartamento" IsNewNode="True" />
+        <PropertyEditor Id="IdUsuarios.NroUsuarios" PropertyName="IdUsuarios.NroUsuarios" Caption="N° de Usuarios " IsNewNode="True" />
+        <PropertyEditor Id="NombreAplicacion" Caption="Nombre " />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutItem Id="Id" ViewItem="Id" Index="0" RelativeSize="4.2666666666666666" IsNewNode="True" />
+            <LayoutGroup Id="Item1" ShowCaption="False" CaptionLocation="Top" Index="1" RelativeSize="8" Direction="Horizontal" IsNewNode="True">
+              <LayoutGroup Id="Auto24ce2816-2cbf-4681-b88f-5624224269eb" ShowCaption="False" Caption="Auto24ce2816-2cbf-4681-b88f-5624224269eb(5)" Index="0" RelativeSize="32.811276429130778" IsNewNode="True">
+                <LayoutItem Id="IdGerencias" ViewItem="IdGerencias" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="IdServicios" ViewItem="IdServicios" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto57e4bab7-4aa2-4b0f-9254-6e3a4abc53b3" ShowCaption="False" Caption="Auto57e4bab7-4aa2-4b0f-9254-6e3a4abc53b3(8)" Index="1" RelativeSize="67.188723570869229" IsNewNode="True">
+                <LayoutItem Id="IdPeriodos" ViewItem="IdPeriodos" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="IdOficinas" ViewItem="IdOficinas" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="AplicacionServicios" RelativeSize="8.8" Index="2" Caption="APLICACIONES QUE DEPENDEN DEL SERVICIO" Direction="Vertical">
+              <LayoutGroup Id="AplicacionServicios_col1" RelativeSize="100" Caption="AplicacionServicios_col1">
+                <LayoutItem Id="NombreAplicacion" RelativeSize="100" Index="0" />
+                <LayoutItem Id="IdUsuarios" RelativeSize="90.3903903903904" Index="1" Removed="True" />
+                <LayoutItem Id="IdGerencias" RelativeSize="81.877022653721681" Index="2" Removed="True" />
+                <LayoutItem Id="Id" RelativeSize="9.60960960960961" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="AplicacionServicios_col2" RelativeSize="0.11534025374855825" Direction="Horizontal" Removed="True">
+                <LayoutItem Id="IdOficinas" Removed="True" />
+                <LayoutItem Id="IdPeriodos" Removed="True" />
+                <LayoutItem Id="IdServicios" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Item3" ShowCaption="True" CaptionLocation="Top" Direction="Vertical" Index="3" RelativeSize="78.933333333333337" Caption="USUARIOS DEL SERVICIO" IsNewNode="True">
+              <LayoutItem Id="IdUsuarios" ViewItem="IdUsuarios" Index="0" RelativeSize="5.7347670250896057" IsNewNode="True" />
+              <TabbedGroup Id="Item4" CaptionLocation="Top" Index="1" RelativeSize="94.26523297491039" IsNewNode="True">
+                <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Direction="Horizontal" Index="0" RelativeSize="100" Caption="Detalles del usuario : " IsNewNode="True">
+                  <LayoutItem Id="IdUsuarios.IdDepartamento.NombreDepartamento" ViewItem="IdUsuarios.IdDepartamento.NombreDepartamento" Index="0" RelativeSize="33.469387755102041" IsNewNode="True" />
+                  <LayoutItem Id="IdUsuarios.Agencia" ViewItem="IdUsuarios.Agencia" Index="1" RelativeSize="33.061224489795919" IsNewNode="True" />
+                  <LayoutItem Id="IdUsuarios.NroUsuarios" ViewItem="IdUsuarios.NroUsuarios" Index="2" RelativeSize="33.469387755102041" IsNewNode="True" />
+                </LayoutGroup>
+              </TabbedGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="AplicacionServicios_ListView" IsGroupPanelVisible="False">
+      <Columns>
+        <ColumnInfo Id="IdUsuarios" GroupIndex="-1" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

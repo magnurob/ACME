@@ -1,0 +1,8 @@
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module\bin\Debug\ACME.Module.dll
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module\bin\Debug\ACME.Module.pdb
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module\obj\Debug\ACME.Module.csprojResolveAssemblyReference.cache
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module\obj\Debug\ACME.Module.ACMEModule.resources
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module\obj\Debug\ACME.Module.csproj.GenerateResource.Cache
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module\obj\Debug\ACME.Module.dll
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module\obj\Debug\ACME.Module.pdb
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Module\obj\Debug\ACME.Module.dll.licenses

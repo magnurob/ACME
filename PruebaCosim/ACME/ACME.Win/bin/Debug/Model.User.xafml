@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Localization>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.Utils.NavBarControlVisibility" IsNewNode="True" />
+    </LocalizationGroup>
+  </Localization>
+  <Options DocumentManagerState="PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8RG9jdW1lbnRNYW5hZ2VyU3RhdGUgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+DQogIDxEb2N1bWVudERlc2NyaXB0aW9ucyAvPg0KICA8Vmlld0xheW91dD5yQUFBQVBJTm9IZnlBSGZ5QWFGMzhnSUE4Z0dnZC9JRDhwYWdkL0lFZC9JRm9YZnlCZ0R5QUtCMzhnZDM4Z2lnZC9JSmQvSUlvSGZ5Q3ZJQW9IZnlDM2Z5REtCMzhnMTM4ZzZoZC9JUEFQSUFvWGZ5RUFEeUFLRjM4aEVBOGdDaGQvSVM4Z0h5QWFGMzhoTUE4Z2VnZC9JVWQvSVZvSGZ5RmdDZ2QvSUVkL0lGb0hmeUYvSUFvWGZ5R0FEeUFxQjM4aG1xQUFBQUFBQUE4RCtnZC9JYWQvSWJvSGZ5SEhmeUhhQjM4aDUzOGgveUlBNGpUR0Y1YjNWMFZtVnljMmx2YmdBU1JHOWpkVzFsYm5SUWNtOXdaWEowYVdWekMwMWhlRlJoWWxkcFpIUm9DMDl5YVdWdWRHRjBhVzl1Q2todmNtbDZiMjUwWVd3WFJHOWpkVzFsYm5SSGNtOTFjRkJ5YjNCbGNuUnBaWE1VUlc1aFlteGxSbkpsWlV4aGVXOTFkRTF2WkdVSFJHVm1ZWFZzZEJWRmJtRmliR1ZUZEdsamEzbFRjR3hwZEhSbGNuTVpRM1Z6ZEc5dFVtVnphWHBsV205dVpWUm9hV05yYm1WemN3VlRkSGxzWlFWTWFXZG9kQmxHYkc5aGRHbHVaMFJ2WTNWdFpXNTBRMjl1ZEdGcGJtVnlEVVJ2WTNWdFpXNTBjMGh2YzNRYVRHOWhaR2x1WjBsdVpHbGpZWFJ2Y2xCeWIzQmxjblJwWlhNYVJHOWpkVzFsYm5SVFpXeGxZM1J2Y2xCeWIzQmxjblJwWlhNWFYybHVaRzkzYzBScFlXeHZaMUJ5YjNCbGNuUnBaWE1GU1hSbGJYTUZTWFJsYlRFR1VHRnlaVzUwQkZKdmIzUUhSV3hsYldWdWRBVkpibVJsZUFaTVpXNW5kR2dKVlc1cGRGWmhiSFZsQ0ZWdWFYUlVlWEJsQkZOMFlYSUVUbUZ0WlFnMU1URXdOVFV5TUFoVWVYQmxUbUZ0WlJCRWIyTnJhVzVuUTI5dWRHRnBibVZ5PC9WaWV3TGF5b3V0Pg0KPC9Eb2N1bWVudE1hbmFnZXJTdGF0ZT4=" />
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="18.1.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="18.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Templates>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.LookupControlTemplate" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Gerencias_LookupListView" IsNewNode="True" />
+        <FormState Id="Oficinas_LookupListView" IsNewNode="True" />
+        <FormState Id="Periodos_LookupListView" IsNewNode="True" />
+        <FormState Id="Servicios_LookupListView" IsNewNode="True" />
+        <FormState Id="Usuarios_LookupListView" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.Ribbon.DetailRibbonFormV2" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="AplicacionServicios_DetailView" IsNewNode="True" />
+        <FormState Id="AplicacionServicios_ListView" IsNewNode="True" />
+        <FormState Id="Usuarios_DetailView" State="Normal" X="104" Y="104" Width="800" Height="604" IsNewNode="True" />
+        <FormState Id="Usuarios_ListView" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.Ribbon.LightStyleMainRibbonForm" DockManagerSettings="77u/PFh0cmFTZXJpYWxpemVyIHZlcnNpb249IjEuMCIgYXBwbGljYXRpb249IkRvY2tNYW5hZ2VyIj4NCiAgPHByb3BlcnR5IG5hbWU9IiNMYXlvdXRWZXJzaW9uIiAvPg0KICA8cHJvcGVydHkgbmFtZT0iQWxsb3dHbHlwaFNraW5uaW5nIj5mYWxzZTwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJTdHlsZSI+TGlnaHQ8L3Byb3BlcnR5Pg0KICA8cHJvcGVydHkgbmFtZT0iQXV0b0hpZGRlblBhbmVsQ2FwdGlvblNob3dNb2RlIj5TaG93Rm9yQWxsUGFuZWxzPC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IkF1dG9IaWRlQ29udGFpbmVycyIgaXNrZXk9InRydWUiIHZhbHVlPSIwIiAvPg0KICA8cHJvcGVydHkgbmFtZT0iRG9ja2luZ09wdGlvbnMiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJBdXRvSGlkZVBhbmVsVmVydGljYWxUZXh0T3JpZW50YXRpb24iPkRlZmF1bHQ8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJUYWJiZWRQYW5lbFZlcnRpY2FsVGV4dE9yaWVudGF0aW9uIj5EZWZhdWx0PC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iQ3VzdG9tUmVzaXplWm9uZVRoaWNrbmVzcyI+MDwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IkN1cnNvckZsb2F0Q2FuY2VsZWQiIGlzbnVsbD0idHJ1ZSIgLz4NCiAgICA8cHJvcGVydHkgbmFtZT0iSGlkZUltbWVkaWF0ZWx5T25BdXRvSGlkZSI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJDbG9zZUFjdGl2ZVRhYk9ubHkiPnRydWU8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJDbG9zZUFjdGl2ZUZsb2F0VGFiT25seSI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJTaG93Q2FwdGlvbk9uTW91c2VIb3ZlciI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJTaG93Q2FwdGlvbkltYWdlIj5mYWxzZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IkFsbG93UmVzdG9yZVRvQXV0b0hpZGVDb250YWluZXIiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iRG9ja1BhbmVsSW5UYWJDb250YWluZXJUYWJSZWdpb24iPkRvY2tJbW1lZGlhdGVseTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IkRvY2tQYW5lbEluQ2FwdGlvblJlZ2lvbiI+RGVmYXVsdDwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IlNuYXBNb2RlIj5Ob25lPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iU2hvd01heGltaXplQnV0dG9uIj50cnVlPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iU2hvd0F1dG9IaWRlQnV0dG9uIj50cnVlPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iU2hvd0Nsb3NlQnV0dG9uIj50cnVlPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iRmxvYXRPbkRibENsaWNrIj50cnVlPC9wcm9wZXJ0eT4NCiAgPC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IkFjdGl2ZVBhbmVsSUQiPi0xPC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9Ilh0cmFTZXJpYWxpemFibGVTY3JlZW5Db25maWd1cmF0aW9uIiBpc2tleT0idHJ1ZSIgdmFsdWU9IjEiPg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtMSI+QDEsWD0wQDEsWT0wQDQsV2lkdGg9MTM2NkAzLEhlaWdodD03Njg8L3Byb3BlcnR5Pg0KICA8L3Byb3BlcnR5Pg0KICA8cHJvcGVydHkgbmFtZT0iUGFuZWxzIiBpc2tleT0idHJ1ZSIgdmFsdWU9IjAiIC8+DQogIDxwcm9wZXJ0eSBuYW1lPSJUb3BaSW5kZXhDb250cm9scyIgaXNrZXk9InRydWUiIHZhbHVlPSIyIj4NCiAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTEiIHR5cGU9IlN5c3RlbS5TdHJpbmciPkRldkV4cHJlc3MuRXhwcmVzc0FwcC5XaW4uVGVtcGxhdGVzLlJpYmJvbi5YYWZSaWJib25Db250cm9sVjI8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtMiIgdHlwZT0iU3lzdGVtLlN0cmluZyI+RGV2RXhwcmVzcy5YdHJhQmFycy5SaWJib24uUmliYm9uU3RhdHVzQmFyPC9wcm9wZXJ0eT4NCiAgPC9wcm9wZXJ0eT4NCjwvWHRyYVNlcmlhbGl6ZXI+" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="78" Y="78" Width="982" Height="695" IsNewNode="True" />
+      </FormStates>
+      <NavBarCustomization Width="165" NavBarControlVisibility="Minimized" IsNewNode="True" />
+    </Template>
+  </Templates>
+  <Views>
+    <ListView Id="AplicacionServicios_ListView">
+      <Columns>
+        <ColumnInfo Id="NombreAplicacion" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="IdGerencias" Index="1" />
+        <ColumnInfo Id="IdPeriodos" Index="2" />
+        <ColumnInfo Id="IdServicios" Index="3" />
+        <ColumnInfo Id="IdOficinas" Index="4" />
+        <ColumnInfo Id="IdUsuarios" SortOrder="Ascending" GroupIndex="0" Index="5" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

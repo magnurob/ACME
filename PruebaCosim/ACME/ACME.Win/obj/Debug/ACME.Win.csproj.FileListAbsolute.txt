@@ -1,0 +1,14 @@
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\bin\Debug\ACME.Win.exe.config
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\bin\Debug\Model.xafml
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\bin\Debug\ACME.Win.exe
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\bin\Debug\ACME.Win.pdb
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\bin\Debug\ACME.Module.dll
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\bin\Debug\ACME.Module.Win.dll
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\bin\Debug\ACME.Module.Win.pdb
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\bin\Debug\ACME.Module.pdb
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\obj\Debug\ACME.Win.csprojResolveAssemblyReference.cache
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\obj\Debug\ACME.Win.Properties.Resources.resources
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\obj\Debug\ACME.Win.ACMEWindowsFormsApplication.resources
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\obj\Debug\ACME.Win.csproj.GenerateResource.Cache
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\obj\Debug\ACME.Win.exe
+D:\ProyectosVisualStudios\pruebaCosim\ACME\ACME.Win\obj\Debug\ACME.Win.pdb
